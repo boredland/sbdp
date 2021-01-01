@@ -45,6 +45,7 @@ export const parseManPageConfig = (config: Record<string, string[]>) => {
         return [
             "",
             `.SS ${category}`,
+            "",
             ...config[category]
         ]
     }).flat()
