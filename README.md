@@ -54,6 +54,14 @@ include ~/.config/sway/config.d/*
 include extension
 ```
 
+### parameters
+
+by default it will output all entries as an array. you can generate a list of man-compatible items using it like this:
+
+```
+sbdp ~/.config/sway/config man
+```
+
 # Credits
 
 Concept is taken and extended from [regolith linux 'remontoire'](https://github.com/regolith-linux/remontoire#model).
